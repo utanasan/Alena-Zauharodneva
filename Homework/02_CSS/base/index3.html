@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Container</title>
+    <style type="text/css">
+    
+    
+    p 
+      {font-weight: bold;
+
+      }
+
+    .leftblock
+       {
+        width: 15em;
+        background-color:lightgrey;
+        float: left;
+       }
+
+    
+    .rightblock1
+       {
+        background-color:gray;  
+        margin-bottom: 0.2em;
+        padding-top: 1px;
+        
+        
+       }    
+
+    .rightblock2
+       {
+        height: 290px; 
+        background-color:gray;  
+        margin-bottom: 0.2em; 
+        padding-top: 1px;
+        overflow:hidden;
+       
+    
+       }  
+    
+            
+    .footerblock
+       {
+        background-color:lightgrey;
+        
+
+       }
+
+    </style>
+</head>
+<body>
+    
+   <div class="leftblock"><p>Блок навигации<p>
+    <ul>
+     <li>Ширина 15em</li>
+     <li>Должен присутствовать цвет фона</li>
+     <li>Располагается слева</li>
+     <li>Блок навигации наполните контентом достаточным, чтобы по высоте он начинал захватывать вторую статью, как показано в данном примере</li>
+   </ul> 
+    </div>  
+
+
+    
+    <div class="rightblock1"><p>Статья 1</p>
+     Размер блока:<br>
+     Занимает всю доступную ширину<br>
+     Должен присутствовать цвет фона<br>
+     Во всех "статьях" сделайте отступ снизу от соседей равным .2em, при помощи свойства margin-bottom<br>
+    </div>  
+
+    
+    <div class="rightblock2"><p>Статья 2</p>
+        Размер блока:<br>
+        Занимает всю доступную ширину<br>
+        Должен присутствовать цвет фона<br>
+        Во всех "статьях" сделайте отступ снизу от соседей равным .2em, при помощи свойства margin-bottom Картинка вставлена при помощи тега, плавание организвано по правому краю внутри данной статьи для этой картинки<br>
+        <div><img src="icon_mail.png" style="float: right"></div>
+        <div></div>
+      
+        
+        
+    </div>  
+
+    <div class="footerblock">Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.</div>
+
+</body>
+</html>
