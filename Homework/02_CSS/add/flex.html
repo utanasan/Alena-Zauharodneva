@@ -10,47 +10,47 @@
       {font-weight: bold;
 
       }
+    
+    .r{
+           display: flex;
+           background-color: lightgrey;
+       }
 
+    .c{
+			  display: flex;
+			  flex-direction: column;
+			  
+    }
     .leftblock
        {
-        width: 15em;
-        background-color:lightgrey;
-        float: left;
+        flex: 0 0 15em;
        }
 
     
     .rightblock1
        {
-        background-color:gray;  
-        margin-bottom: 0.2em;
-        padding-top: 1px;
-        
+        background-color: #777774;
+           margin-bottom: .2em;
         
        }    
 
     .rightblock2
        {
         
-        background-color:gray;  
-        margin-bottom: 0.2em; 
-        padding-top: 1px;
-        overflow:hidden;
-       
-    
-       }  
-    
+        background-color: #777774;
+           margin-bottom: .2em;
+       }
             
     .footerblock
        {
-        background-color:lightgrey;
-        
-
-       }
+        background-color:rgb(216, 204, 204);
+        display: flex;
+        flex-direction: row}
 
     </style>
 </head>
 <body>
-    
+    <div class="r">
    <div class="leftblock"><p>Блок навигации<p>
     <ul>
      <li>Ширина 15em</li>
@@ -61,7 +61,7 @@
     </div>  
 
 
-    
+    <div class="c">
     <div class="rightblock1"><p>Статья 1</p>
      Размер блока:<br>
      Занимает всю доступную ширину<br>
@@ -75,12 +75,12 @@
         Занимает всю доступную ширину<br>
         Должен присутствовать цвет фона<br>
         Во всех "статьях" сделайте отступ снизу от соседей равным .2em, при помощи свойства margin-bottom Картинка вставлена при помощи тега, плавание организвано по правому краю внутри данной статьи для этой картинки<br>
-        <div><img src="icon_mail.png" style="float: right"></div>
+        <div style="float: right"><img src="icon_mail.png" ></div>
         <div></div>
         
-        
+    </div>   
     </div>  
-
+    </div>
     <div class="footerblock">Нижний блок, подвал. Занимает всю доступную ширину. Высота определяется помещенным внутрь контентом.</div>
 
 </body>
